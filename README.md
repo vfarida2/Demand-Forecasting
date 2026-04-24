@@ -8,7 +8,7 @@ df.describe()
 df.isnull().sum()
 
 #Remove duplicates
-df.drop_duplicates(inplace=True)
+df.drop_duplicates(inplace=True) 
 
 #Duplicate rows are removed to ensure data quality.
 #Handle missing values
